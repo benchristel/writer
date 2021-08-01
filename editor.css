@@ -376,3 +376,54 @@ li.ProseMirror-selectednode:after {
    * for the cursor to show up */
   min-width: 1px
 }
+
+/* PARAGRAPHS =========================================== */
+
+.ProseMirror p[indent=hanging] {
+  padding-left: 0.25in;
+  text-indent: -0.25in;
+}
+
+.ProseMirror p[margin="0"] {
+  margin-left: 0;
+}
+
+.ProseMirror p[margin="1"] {
+  margin-left: 0.25in;
+}
+
+.ProseMirror p[margin="2"] {
+  margin-left: 0.5in;
+}
+
+.ProseMirror p[margin="3"] {
+  margin-left: 0.75in;
+}
+
+.ProseMirror p[margin="4"] {
+  margin-left: 1in;
+}
+
+.ProseMirror p[margin="5"] {
+  margin-left: 1.25in;
+}
+
+.ProseMirror p[margin="6"] {
+  margin-left: 1.5in;
+}
+
+.ProseMirror p[margin="7"] {
+  margin-left: 1.75in;
+}
+
+.ProseMirror p[margin="8"] {
+  margin-left: 2in;
+}
+
+.ProseMirror p[margin="9"] {
+  margin-left: 2.25in;
+}
+
+.ProseMirror p[margin="10"] {
+  margin-left: 2.5in;
+}
