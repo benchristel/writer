@@ -1,9 +1,13 @@
 # Writer
 
-A Path OS text editor.
+A [Path OS](https://github.com/benchristel/path-os) text editor.
 
 ## TODO:
 
-- levels of indentation (already provided via blockquotes?)
-- hanging indent paragraphs
+- shortcut keys for increasing and decreasing margin, and
+  toggling hanging indent.
+- pressing enter in a paragraph should copy its attributes
+  to the next paragraph.
+- html export
+- save to Path OS file
 - centered text
